@@ -9,13 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "mongodb": "^6.17.0",
+    "mongoose": "^8.16.1",
+    "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "next": "15.3.4"
+    "styled-components": "^6.1.19",
+    "swr": "^2.3.3"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@types/node": "24.0.4",
+    "@types/react": "19.1.8",
     "eslint": "^9",
-    "eslint-config-next": "15.3.4",
-    "@eslint/eslintrc": "^3"
+    "eslint-config-next": "15.3.4"
   }
 }
